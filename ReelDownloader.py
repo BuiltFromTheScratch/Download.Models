@@ -100,7 +100,7 @@ def rename_and_move_downloaded_file(temp_folder, videos_folder, counter, reel_ur
     # Wait until there are no active downloads
     # while not is_download_complete(temp_folder):
     #     print("[LOG] Waiting for download to complete...")
-    time.sleep(20)  # Check every 20 seconds
+    time.sleep(30)  # Check every 20 seconds
     # Exclude 'null.mp4' from the list
     files = [f for f in os.listdir(temp_folder) if f.endswith('.mp4') and f != 'null.mp4']
     print(f"Files in temp folder: {files}")
