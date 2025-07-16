@@ -226,7 +226,7 @@ def main():
     temp_folder = "temp"
     videos_folder = "VIDEOS"
     counter_file = "counter.txt"
-    links_file = "links.txt"
+    links_file = "links2.txt"
     
     # Read reel links from the .txt file
     with open(links_file, 'r', encoding='utf-8') as file:
